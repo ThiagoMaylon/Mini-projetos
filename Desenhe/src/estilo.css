@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
 
 :root{
+    --cor1: #782FDE;
+    --cor2: #33145E;
+    --cor3: #202020;
     --cor4: #00d9ff;
 }
 body{
     height: 80vh;
     position: relative;
-    background-image: linear-gradient(to right, #782FDE, #33145E);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
 }
 header{
     text-align: center;
