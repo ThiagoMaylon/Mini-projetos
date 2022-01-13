@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 95vh;
+    background-image: linear-gradient(to right,#782FDE, #33145E);
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 3px 12px black;
+}
+section{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.493);
+
+}
+#botao{
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    color: #202020;
+    transition: box-shadow 0.1s;
+    border: 2px solid #202020;
+    margin-bottom: 10px;
+}
+div.single{ 
+    margin: 10px;
+    position: relative;
+    margin: 30px 0px;
+}
+div.single label{
+    position: absolute;
+    font-size: 16px;
+    left: 0px;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+div.single .inputp{
+    width: 100%;
+    padding: 3px 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.single .inputp:focus, div.single .inputp:valid{
+    border-bottom: 2px solid #00d9ff;
+
+}
+div.single .inputp:focus ~ label, div.single .inputp:valid ~ label{
+    transform: translateY(-24px);
+    color: #00d9ff;
+}
+#botao:hover{
+    border: 2px solid #00d9ff;
+    color: #00d9ff;
+    box-shadow: 0px 0px 16px #00d9ff, 0px 0px 8px #00d9ff inset;
+    text-shadow: 0px 0px 0px 5px #00d9ff;
+}
+div#resposta{
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 300px;
+    font-family: cursive;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 550px;
+    font-size: 1.5em;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="shortcut icon" href="imagens/calculadora.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+    <section>
+        <div>
+            <div class="single">
+                <input type="text" id="nome" class="inputp" required>
+                <label for="nome">Nome</label>
+            </div>
+            <div class="single">
+                <input type="number" id="pesotxt" class="inputp" required>
+                <label for="pesotxt">Peso (kg)</label>
+            </div>
+            <div class="single">
+                <input type="number" id="alturatxt" class="inputp" required>
+                <label for="alturatxt">Altura (cm)</label>
+            </div>
+            <input type="button" value="calcular" onclick="calcular()" id="botao">
+        </div>
+        <div id="resposta"> 
+            <p>
+                
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; site criado por <a href="https://github.com/ThiagoMaylon" target="_black">Thiago</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
