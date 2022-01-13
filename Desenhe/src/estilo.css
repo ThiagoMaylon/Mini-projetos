@@ -8,35 +8,34 @@
     --cor4: #00d9ff;
 }
 body{
-    height: 80vh;
+    margin: 0px;
     position: relative;
     background-image: linear-gradient(to right, var(--cor1), var(--cor2));
 }
-header{
-    text-align: center;
+h1{
+    
+    text-align: left;
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    font-weight: bold;
 }
-main{
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-main #tela{
-    margin-top: 30px;
+
+ #tela{
     border: 5px solid white;
     border-radius: 10px;
     background-color: var(--cor3);
-    width: 800px;
-    height: 390px;
+    max-width: 1200px;
+    max-height: 500px;
+    
 }
-
+#bnt-apagar{
+    
+    padding: 10px;
+    text-align: center;
+}
 footer{
     text-align: center;
-    margin-top: 500px;
     color: white;
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
