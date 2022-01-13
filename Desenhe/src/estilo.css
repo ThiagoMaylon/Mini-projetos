@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+:root{
+    --cor4: #00d9ff;
+}
+body{
+    height: 80vh;
+    position: relative;
+    background-image: linear-gradient(to right, #782FDE, #33145E);
+}
+header{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+main{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main #tela{
+    margin-top: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: var(--cor3);
+    width: 800px;
+    height: 390px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 500px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
