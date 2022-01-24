@@ -1,27 +1,28 @@
-const bntLigar = document.querySelector("#ligar");
-const bntDesligar = document.querySelector("#desligar");
+const bnt = document.querySelector("#interruptor");
 const lamp = document.querySelector("#lamp");
-
-let ligada = false;
 
 function ligar(){
     lamp.src = 'img/ligada.jpg';
-    ligada = true;
+
 }
 function desligar(){
     lamp.src = 'img/desligada.jpg'
-    ligada = false;
 }
 function quebrar(){
     lamp.src = 'img/quebrada.jpg';
-    ligada = false;
 }
 
-bntLigar.addEventListener("click", ligar);
-bntDesligar.addEventListener("click", desligar);
-lamp.addEventListener("click", quebrar);
-if(ligada == false){
-    
+function OnOff(){
+    if(bnt.textContent == "ligar"){
+        ligar()
+        bnt.textContent = "desligar";
+    }else if(bnt.textContent == "desligar"){
+        desligar();
+        bnt.textContent = "ligar"
+    }
 }
-lamp.addEventListener('mouseover', ligar);
-lamp.addEventListener('mouseleave', desligar);
+
+bnt.addEventListener('click', OnOff);
+
+
+lamp.addEventListener("dblclick", quebrar);
