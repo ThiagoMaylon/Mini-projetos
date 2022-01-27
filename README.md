@@ -22,4 +22,7 @@
     <li>
         <a href="https://thiagomaylon.github.io/Mini-projetos/cronometro/index.html">Cronometro</a>
     </li>
+    <li>
+        <a href="https://thiagomaylon.github.io/Mini-projetos/Contador/index.html">Contador</a>
+    </li>
 </ul>
