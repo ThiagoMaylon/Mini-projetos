@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+section{
+    text-align: center;
+    padding-top: 20px;
+}
+#formulario{
+    font-size: 1.5em;
+}
+#formulario input{
+    height: 25px;
+}
+#bnts{
+    padding: 10px;
+}
+#bnts button{
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+#resposta p{
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 20px;
+    color: green;
+}
