@@ -26,6 +26,9 @@
         <a href="https://thiagomaylon.github.io/Mini-projetos/Contador/index.html">Contador</a>
     </li>
     <li>
-        <a href="https://thiagomaylon.github.io/Mini-projetos/CalculadoraBasica/index.html">CalculadoraBasica</a>
+        <a href="https://thiagomaylon.github.io/Mini-projetos/CalculadoraBasica/index.html">Calculadora Basica</a>
+    </li>
+    <li>
+        <a href="https://thiagomaylon.github.io/Mini-projetos/Cores/index.html">Cores</a>
     </li>
 </ul>
