@@ -34,5 +34,7 @@
     <li>
         <a href="https://thiagomaylon.github.io/Mini-projetos/rick-and-morty/index.html">Rick and Morty</a>
     </li>
-    
+    <li>
+        <a href="https://thiagomaylon.github.io/Mini-projetos/nargas/index.html">e o nargas?</a>
+    </li>
 </ul>
